@@ -1,11 +1,12 @@
 {
   "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
-    "plaintext",
-    "markdown"
+    "markdown",
+    "plaintext"
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
-    "\/Users\/jrollans\/Documents\/Source\/Nova Projects\/Mastonaut\/Mastonaut.xcodeproj\/project.pbxproj",
-    "\/Users\/jrollans\/Documents\/Source\/Nova Projects\/Mastonaut\/README.md"
+    "\/Users\/jrollans\/Documents\/Source\/Nova Projects\/Mastonaut\/README.md",
+    "\/Users\/jrollans\/Documents\/Source\/Nova Projects\/Mastonaut\/Mastonaut\/Cells\/AnimatableEmojiCell.swift",
+    "\/Users\/jrollans\/Documents\/Source\/Nova Projects\/Mastonaut\/Pods\/SVGKit\/Source\/DOM classes\/Core DOM\/AppleSucksDOMImplementation.h"
   ],
   "workspace.art_style" : 0,
   "workspace.color" : 0
