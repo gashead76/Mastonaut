@@ -14,7 +14,7 @@
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)app.mastonaut.mac</string>
+		<string>$(AppIdentifierPrefix)app.mastonaut.jmr</string>
 	</array>
 </dict>
 </plist>

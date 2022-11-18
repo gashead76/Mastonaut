@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14868" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="20037" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14868"/>
+        <deployment version="120000" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="20037"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -26,20 +26,20 @@
             <rect key="frame" x="0.0" y="0.0" width="437" height="314"/>
             <subviews>
                 <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" horizontalHuggingPriority="245" verticalHuggingPriority="750" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aQR-bb-Sje">
-                    <rect key="frame" x="255" y="10" width="172" height="21"/>
+                    <rect key="frame" x="271" y="10" width="156" height="20"/>
                     <subviews>
                         <progressIndicator wantsLayer="YES" maxValue="100" displayedWhenStopped="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="KlF-K7-wEd">
-                            <rect key="frame" x="0.0" y="3" width="16" height="16"/>
+                            <rect key="frame" x="0.0" y="2" width="16" height="16"/>
                         </progressIndicator>
                         <button hidden="YES" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="e1R-DY-K1Y">
-                            <rect key="frame" x="-6" y="-7" width="147" height="32"/>
+                            <rect key="frame" x="-7" y="-7" width="141" height="32"/>
                             <buttonCell key="cell" type="push" title="Continue in App…" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="WGL-34-TNE">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="system"/>
                             </buttonCell>
                         </button>
                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="NVE-vN-dkz">
-                            <rect key="frame" x="18" y="-7" width="82" height="32"/>
+                            <rect key="frame" x="17" y="-7" width="76" height="32"/>
                             <constraints>
                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="cP1-hK-9ZX"/>
                             </constraints>
@@ -55,7 +55,7 @@ Gw
                             </connections>
                         </button>
                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1uM-r7-H1c">
-                            <rect key="frame" x="96" y="-7" width="82" height="32"/>
+                            <rect key="frame" x="87" y="-7" width="76" height="32"/>
                             <buttonCell key="cell" type="push" title="Send" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="2l4-PO-we5">
                                 <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="system"/>
@@ -102,7 +102,7 @@ DQ
                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSApplicationIcon" id="q3u-Am-ZIA"/>
                 </imageView>
                 <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="4" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" horizontalHuggingPriority="248" verticalHuggingPriority="750" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nen-de-NX0">
-                    <rect key="frame" x="10" y="39" width="417" height="204"/>
+                    <rect key="frame" x="10" y="38" width="417" height="204"/>
                     <subviews>
                         <scrollView borderType="line" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iO3-ao-FMU">
                             <rect key="frame" x="0.0" y="84" width="417" height="120"/>
@@ -182,10 +182,10 @@ DQ
                     </customSpacing>
                 </stackView>
                 <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" horizontalHuggingPriority="249" verticalHuggingPriority="750" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ySl-kC-hWo">
-                    <rect key="frame" x="10" y="251" width="417" height="21"/>
+                    <rect key="frame" x="10" y="250" width="417" height="22"/>
                     <subviews>
                         <popUpButton horizontalHuggingPriority="251" verticalHuggingPriority="751" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" translatesAutoresizingMaskIntoConstraints="NO" id="RFK-I3-VSC">
-                            <rect key="frame" x="-2" y="-3" width="136" height="25"/>
+                            <rect key="frame" x="-3" y="-3" width="139" height="25"/>
                             <popUpButtonCell key="cell" type="push" title="Author Name" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="oxC-QT-lxF" id="SBD-qv-sCj">
                                 <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="menu"/>
@@ -197,7 +197,7 @@ DQ
                             </popUpButtonCell>
                         </popUpButton>
                         <popUpButton horizontalHuggingPriority="251" verticalHuggingPriority="751" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="QYq-CJ-NLG">
-                            <rect key="frame" x="137" y="-3" width="76" height="25"/>
+                            <rect key="frame" x="137" y="-3" width="77" height="25"/>
                             <popUpButtonCell key="cell" type="push" title="Public" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="ErK-BV-LA1" id="kps-7w-3jf">
                                 <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                 <font key="font" metaFont="menu"/>
@@ -212,10 +212,10 @@ DQ
                             </connections>
                         </popUpButton>
                         <customView horizontalHuggingPriority="755" verticalHuggingPriority="755" horizontalCompressionResistancePriority="249" verticalCompressionResistancePriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="Qju-8T-q8Z">
-                            <rect key="frame" x="218" y="0.0" width="163" height="21"/>
+                            <rect key="frame" x="218" y="0.0" width="163" height="22"/>
                         </customView>
                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="b5F-TG-R49">
-                            <rect key="frame" x="387" y="2" width="32" height="17"/>
+                            <rect key="frame" x="387" y="3" width="32" height="17"/>
                             <textFieldCell key="cell" lineBreakMode="clipping" title="500" id="z3A-5Z-tW7">
                                 <font key="font" metaFont="systemSemibold" size="14"/>
                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
