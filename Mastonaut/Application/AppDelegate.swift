@@ -17,6 +17,8 @@
 //  GNU General Public License for more details.
 //
 
+// Alright, guess I got to start somewhere.
+
 import Cocoa
 import MastodonKit
 import CoreTootin
